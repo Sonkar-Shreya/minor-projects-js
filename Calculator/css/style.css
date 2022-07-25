@@ -1,0 +1,44 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mainBody{
+	background-color: grey;
+	width: 600px;
+	height: 700px;
+}
+#inputField{
+	background-color: pink;
+	height: 100px;
+	/*width: 50px;*/
+	margin: 20px;
+	font-size: 40px;	
+}
+#output{
+
+	background-color: lightsteelblue;
+	height: 60px;
+	margin: 10px;
+}
+.buttondiv{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+
+}
+.button{
+	height: 80px;
+	width: 70px;
+	font-size: 30px;
+	font-weight: bolder;
+	border-radius: 12px;
+
+}
+.button:hover{
+	background-color: slategrey;
+
+}
